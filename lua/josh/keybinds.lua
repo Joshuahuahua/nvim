@@ -16,6 +16,7 @@ local set = vim.keymap.set
 -- Navigation
 set("n", "<leader>e", "<cmd>Ex<CR>") -- Explorer
 set("n", "<C-p>", "<cmd>Telescope find_files<CR><ESC>") -- Telescope
+set("n", "<C-f>", "<cmd>Telescope live_grep<CR><ESC>") -- Telescope
 set("n", "<C-t>", "<cmd>echo bind to tree<CR>") -- Tree Navigation
 
 -- Formatting
