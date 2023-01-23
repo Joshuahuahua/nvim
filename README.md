@@ -32,5 +32,5 @@ git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 
 ## Install Font
 
-Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
+Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
 [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.3.0/Hack.zip)
