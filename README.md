@@ -39,7 +39,17 @@ Clone nvim repo to .config directory
 git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 ```
 
+# Terminal Customization
 ## Install Font
 
 Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
 Current: [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/latest/Hack.zip)
+
+# Install Starship
+```console
+curl -sS https://starship.rs/install.sh | sh
+```
+Append the following to your `.bashrc`  
+```sh
+eval "$(starship init bash)"
+```
