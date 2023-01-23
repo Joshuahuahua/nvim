@@ -1,5 +1,14 @@
 # nvim Config
 
+## Environment Setup
+
+# Windows 10/11
+
+Ensure WSL is enabled
+```bat
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
 ## Install Dependencies
 
 Install Dependencies
@@ -33,4 +42,4 @@ git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 ## Install Font
 
 Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
-[Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/latest/Hack.zip)
+Current: [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/latest/Hack.zip)
