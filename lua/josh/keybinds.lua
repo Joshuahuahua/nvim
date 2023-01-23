@@ -17,7 +17,16 @@ local set = vim.keymap.set
 set("n", "<leader>e", "<cmd>Ex<CR>") -- Explorer
 set("n", "<C-p>", "<cmd>Telescope find_files<CR>") -- Telescope
 set("n", "<C-f>", "<cmd>Telescope live_grep<CR>i") -- Telescope
-set("n", "<C-t>", "<cmd>NvimTreeToggle<CR>") -- Tree Navigation
+set("n", "<C-t>", "<cmd>NvimTreeToggle<CR><C-l>") -- Tree Navigation
+
+-- Focus Window
+set("n", "<C-h>", "<C-w>h")
+set("n", "<C-j>", "<C-w>j")
+set("n", "<C-k>", "<C-w>k")
+set("n", "<C-l>", "<C-w>l")
+
+-- Clear seach buffer
+set("n", "<ESC>", "<cmd>:noh<CR><ESC>")
 
 -- Formatting
 set("n", "<leader>f", function()
