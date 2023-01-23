@@ -5,7 +5,7 @@
 # Windows 10/11
 
 Ensure WSL is enabled
-```bat
+```console
 Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
 ```
 
