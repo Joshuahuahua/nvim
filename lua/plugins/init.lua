@@ -18,8 +18,6 @@ return require('packer').startup(function(use)
     'wbthomason/packer.nvim'
   }
 
-
-
   -- ### Navigation
   -- Search
   use {
@@ -37,6 +35,7 @@ return require('packer').startup(function(use)
     requires = {
       { 'kyazdani42/nvim-web-devicons' },
     },
+    config = function() require("plugins.config.nvimtree") end,
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
 
