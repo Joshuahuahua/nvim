@@ -25,6 +25,10 @@ Install/Update nvm
 ```console
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 ```
+Install npm
+```console
+nvm install --lts
+```
 
 ## Install nvim
 
