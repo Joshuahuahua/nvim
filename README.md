@@ -1,8 +1,9 @@
 # nvim Config
 
 ## Contents
-- [Environment Setup](#Environment-Setup)  
-- [Terminal Customisation](#Terminal-Customisation)  
+- [Environment Setup](#Environment-Setup)
+- [Terminal Customisation](#Terminal-Customisation)
+- [Optional Packages](#Optional-Packages)
 
 ---
 # Environment Setup
@@ -66,7 +67,7 @@ eval "$(starship init bash)"
 ```
 
 ---
-# Additional Packages
+# Optional Packages
 ## Miniconda
 ```
 wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
