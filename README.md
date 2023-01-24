@@ -3,10 +3,10 @@
 ## Contents
 - [Environment Setup](#Environment-Setup)  
 - [Terminal Customisation](#Terminal-Customisation)  
+---
 
-## Environment Setup
-
-# Windows 10/11
+# Environment Setup
+## Windows 10/11
 
 Ensure WSL is enabled
 ```console
@@ -47,7 +47,7 @@ Clone nvim repo to .config directory
 ```console
 git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 ```
-
+---
 # Terminal Customisation
 ## Install Font
 
