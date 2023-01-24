@@ -50,7 +50,7 @@ git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
 Current: [Hack Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/Hack.zip)
 
-# Install Starship
+## Install Starship
 ```console
 curl -sS https://starship.rs/install.sh | sh
 ```
