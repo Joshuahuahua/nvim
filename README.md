@@ -41,7 +41,7 @@ sudo make install
 ```
 Remove Repo
 ```console
-rm -rf ~/neovim/
+cd ~ && rm -rf ~/neovim/
 ```
 Clone nvim repo to .config directory
 ```console
