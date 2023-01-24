@@ -25,15 +25,19 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 Clone Repo
 ```console
-git clone https://github.com/neovim/neovim
+git clone https://github.com/neovim/neovim ~/neovim/
 ```
 Make Build
 ```sh
-cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
+cd ~/neovim/ && make CMAKE_BUILD_TYPE=RelWithDebInfo
 ```
 Make Install
 ```console
 sudo make install
+```
+Remove Repo
+```console
+rm -rf ~/neovim/
 ```
 Clone nvim repo to .config directory
 ```console
