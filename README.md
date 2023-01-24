@@ -64,3 +64,13 @@ Append the following to your `.bashrc`
 ```sh
 eval "$(starship init bash)"
 ```
+
+---
+# Additional Packages
+## Miniconda
+```
+wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
+```
+```
+bash Miniconda3-latest-Linux-x86_64.sh
+```
