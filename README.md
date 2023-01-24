@@ -3,8 +3,8 @@
 ## Contents
 - [Environment Setup](#Environment-Setup)  
 - [Terminal Customisation](#Terminal-Customisation)  
----
 
+---
 # Environment Setup
 ## Windows 10/11
 
@@ -46,8 +46,9 @@ cd ~ && rm -rf ~/neovim/
 ## Clone nvim config
 ```console
 git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
-```
-Run `so` and `PackerSync` to sync libraries
+```  
+Run `:so` and `:PackerSync` to sync libraries
+
 ---
 # Terminal Customisation
 ## Install Font
