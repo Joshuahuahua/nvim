@@ -1,5 +1,9 @@
 # nvim Config
 
+## Contents
+[Environment Setup](#Environment-Setup)
+[Terminal Customisation](#Terminal-Customisation)
+
 ## Environment Setup
 
 # Windows 10/11
@@ -44,7 +48,7 @@ Clone nvim repo to .config directory
 git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 ```
 
-# Terminal Customization
+# Terminal Customisation
 ## Install Font
 
 Install desired font from [Nerd Fonts](https://www.nerdfonts.com/font-downloads)  
