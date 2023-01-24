@@ -1,8 +1,8 @@
 # nvim Config
 
 ## Contents
-[Environment Setup](#Environment-Setup)
-[Terminal Customisation](#Terminal-Customisation)
+- [Environment Setup](#Environment-Setup)  
+- [Terminal Customisation](#Terminal-Customisation)  
 
 ## Environment Setup
 
