@@ -43,10 +43,11 @@ Remove Repo
 ```console
 cd ~ && rm -rf ~/neovim/
 ```
-Clone nvim repo to .config directory
+## Clone nvim config
 ```console
 git clone https://github.com/Joshuahuahua/nvim.git ~/.config/nvim/
 ```
+Run `so` and `PackerSync` to sync libraries
 ---
 # Terminal Customisation
 ## Install Font
